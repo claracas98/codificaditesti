@@ -1,0 +1,5 @@
+<!-- esercizio DTD, Clara Casandra, matricola 566830-->
+<!ELEMENT TEI (header, facsimile*, text+)>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT facsimile (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
