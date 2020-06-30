@@ -1,0 +1,11 @@
+<!-- author: Clara Casandra,566830
+-->
+<!-- esercizio5 - definire elemento root TEI, header,text-->
+<!ELEMENT TEI (header, facsimile?, text+)>
+<!--Elemento root che ha come figli header(una sola volta obbligatoria),facsimile(0 o 1 volta), text(almeno una volta)-->
+<!ELEMENT header (#PCDATA)>
+<!--Elemento header cha ha content model testuale-->
+<!ELEMENT facsimile (#PCDATA)>
+<!--Elemento facsimile cha ha content model testuale-->
+<!ELEMENT text (#PCDATA)>
+<!--Elemento text cha ha content model testuale-->

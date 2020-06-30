@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?> <!-- XML corretto -->
+<!DOCTYPE radice SYSTEM "Esercizio8.dtd">
+<radice>
+  <text>    
+    <mese>Aprile</mese>
+    <periodo>Programmazione sala 1 prima settimana</periodo>
+    <giorno nome ="sabato"/>
+    <spettacolo> 17-19:50: Joker</spettacolo>
+    <spettacolo>19:50-22:30: Parasite</spettacolo>
+    <spettacolo>22:30- 
+        <giorno nome ="domenica"/>1:20: Piccole Donne
+    </spettacolo>
+    <spettacolo>17:00-18:45: Avengers: Endgame</spettacolo>
+    <spettacolo>18.45-20.00 : Le pagine della nostra vita</spettacolo>
+  </text>
+</radice>

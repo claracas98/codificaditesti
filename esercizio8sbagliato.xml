@@ -1,0 +1,17 @@
+<!-- XML Sbagliato -->
+<?xml version=”1.0” encoding=”utf-8”?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.teic.org/ns/1.0">
+<text>    
+    <mese>Aprile</mese>
+    <periodo>Programmazione sala 1 prima settimana</periodo>
+    <giorno nome ="sabato">
+        <spettacolo>17-19:50: Joker</spettacolo>
+        <spettacolo>19:50-22:30: Parasite</spettacolo>
+        <spettacolo>22:30-
+    </giorno>        
+    <giorno nome ="domenica"> 01:20: Piccole Donne</spettacolo>
+        <spettacolo>17:00-18:45: Avengers Endgame</spettacolo>
+        <spettacolo>18.45-20.00 : Le pagine della nostra vita</spettacolo>
+    </giorno>       
+</text>

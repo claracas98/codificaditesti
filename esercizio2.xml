@@ -1,0 +1,10 @@
+<!-- Author: Clara Casandra
+Matricola:566830-->
+<!-- aggiungo il figlio date all'elemento text-->
+<!-- aggiungo il fratello text all'elemento text-->
+<?xml version="1.0" encoding="utf-8"?>
+<text> documento xml del
+   <date> 2020 </date>
+</text>
+<text> corso Codifica di Testi
+</text>

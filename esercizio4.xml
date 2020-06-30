@@ -1,0 +1,8 @@
+<!-- author: Clara Casandra,566830
+-->
+<!-- esercizio3 - inserire all'interno di un tag un frammento di codice HTML-->
+<?xml version=”1.0” encoding="UTF-8" standalone =”no” ?>
+<htmlCode>
+	<![CDATA[<h1>Capitolo Primo</h1>
+	         <h2>Paragrafo Primo</h2>]]>
+</htmlCode>

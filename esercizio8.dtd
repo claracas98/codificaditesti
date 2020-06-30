@@ -1,0 +1,8 @@
+<!ELEMENT radice (text)>
+<!ELEMENT text (mese, periodo, giorno+, spettacolo+)>
+<!ELEMENT mese (#PCDATA)>
+<!ELEMENT periodo (#PCDATA)>
+<!ELEMENT giorno (#PCDATA)>
+<!ELEMENT spettacolo (#PCDATA|giorno)*>
+<!ATTLIST giorno
+nome (sabato|domenica) #REQUIRED>

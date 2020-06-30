@@ -1,0 +1,13 @@
+<!-- author: Clara Casandra,566830-->
+<!-- esercizio 7-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "esercizio7.dtd">
+<TEI>
+	<header type = "intestazione" lang = "ita"> contenuto testuale </header>
+	<facsimile source = "collegamento a un sito" ref = "ID"> contenuto testuale </facsimile>
+	<testo id = "ID" type = "testogenerale"> possibile contenuto testuale oppure
+		<seg> 
+			contenuto testuale 
+		</seg>
+	</testo>
+</TEI>

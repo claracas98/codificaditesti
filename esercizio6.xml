@@ -1,0 +1,9 @@
+<!--Clara Casandra, 566830-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE radice SYSTEM "esercizio6.dtd">
+<radice>
+    <nota nome = "Lettera">
+       <a> Vincenzo </a>
+       <da> Eleonora </da> 
+    </nota>
+</radice>    
