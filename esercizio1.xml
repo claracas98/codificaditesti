@@ -1,0 +1,9 @@
+<!-- author: Clara Casandra,566830-->
+<!-- esercizio2 - file xml non opportunamente annidato-->
+<?xml version="1.0" encoding="utf-8"?>
+<text>
+</text>
+<text>
+    <child>
+</text>
+    </child>
