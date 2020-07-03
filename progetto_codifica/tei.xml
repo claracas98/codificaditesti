@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE TEI SYSTEM "teiStatement.dtd">
+<TEI version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="corpStmt">
+        <!-- Descrizione file -->
+        <fileDesc>
+            <!-- Titolo, responsabili e trascrizione -->
+            <titleStmt>
+                <title xml:lang="it">Vincenzo Bellini a Eleonora Statella, Duchessa di Sammartino. Minuta di lettera.</title>
+                <!-- Encoders -->
+                <respStmt>
+                    <resp>Codificato da </resp>
+                    <persName xml:id="AF">Arcangelo Franco</persName>
+                    <persName xml:id="CC">Clara Casandra</persName>
+                </respStmt>
+                <!-- Trascrittore -->
+                <respStmt>
+                    <resp>Trascrizione a cura di </resp>
+                    <persName xml:id="GS">G. Seminara</persName>
+                </respStmt>
+            </titleStmt>
+            <!-- Informzioni inerenti all'edizione -->
+            <editionStmt>
+                <edition>
+                    Studenti di Codifica di Testi, Corso di Laurea Triennale di Informatica Umanistica, Universit&#224; di Pisa
+                    <date when="2020-07">Luglio 2020</date>
+                </edition>
+                <!-- Responsabili -->
+                <respStmt>
+                    <resp>Codificato da</resp>
+                    <persName ref="#AF">A. Franco</persName>
+                    <persName ref="#CC">C. Casandra</persName>
+                </respStmt>
+                <!-- Trascrittore -->
+                <respStmt>
+                    <resp>Trascrizione a cuira di </resp>
+                    <persName ref="#GS">G. Seminara</persName>
+                </respStmt>
+            </editionStmt>
+            <!-- Informazioni sulla pubblicazione e distribuzione del documento -->
+            <publicationStmt>
+                <publisher>
+                    Universit&#224; di <name type="spot">Pisa</name>
+                    <figure>
+                        <graphic xml:id="unipi" url="./site/imgFile/unipi.png"/>
+                    </figure>
+                </publisher>
+                <pubPlace xml:id="PI">Pisa</pubPlace>
+                <availability>
+                    <p>Creative Commons Attribution 4.0 International Public License</p>
+                </availability>
+                <date when="2020">2020</date>
+                <distributor>
+                    <orgName xml:id="LabCD">Laboratorio di Cultura Digitale</orgName>
+                    <address>
+                        <addrLine>Laboratorio di Cultura Digitale - Universit&#224; di <name type="spot">Pisa</name></addrLine>
+                    </address>
+                </distributor>
+            </publicationStmt>
+            <!-- Informazioni sulla fonte originale da cui proviene il documento -->
+            <sourceDesc>
+                <!-- Lista bibliografica -->
+                <listBibl>
+                    <head>Edizioni</head>
+                    <bibl>
+                        <title>Vincenzo Bellini. Nuovo Epistolario</title>
+                        <editor>
+                            <persName xml:id="CN">C. Neri</persName>
+                        </editor>
+                        <publisher>
+                            <choice>
+                                <abbr>NERI2005</abbr>
+                                <expan>Editoriale Agor&#224;</expan>
+                            </choice>
+                        </publisher>
+                        <pubPlace>
+                            <placeName ref="http://www.treccani.it/enciclopedia/catania/">
+                                <settlement type="town">Catania</settlement>
+                                <region>Sicilia</region>
+                                <district type="common">Catania</district>
+                                <district type="province">CT</district>
+                                <bloc>EU</bloc>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </pubPlace>
+                        <date when="2005">2005</date>
+                        <biblScope>p. 422</biblScope>
+                    </bibl>
+                    <bibl>
+                        <title>Vincenzo Bellini CARTEGGI</title>
+                        <editor>
+                            <persName ref="#GS">G. Seminara</persName>
+                        </editor>
+                        <publisher>
+                            <choice>
+                                <abbr>OLSCHKI2017</abbr>
+                                <expan>Leo S. Olschki Editore</expan>
+                            </choice>
+                        </publisher>
+                        <pubPlace>
+                            <placeName ref="http://www.treccani.it/enciclopedia/firenze/">
+                                <settlement type="town">Firenze</settlement>
+                                <region>Toscana</region>
+                                <district type="common">Firenze</district>
+                                <district type="province">FR</district>
+                                <bloc>EU</bloc>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </pubPlace>
+                        <date when="2017">2017</date>
+                        <biblScope>p. 527 n. 458/1</biblScope>
+                    </bibl>
+                </listBibl>
+                <!-- Descrizione del documento -->
+                <msDesc>
+                    <!-- Identificazione del documento -->
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <region>Sicilia</region>
+                        <settlement type="town">Catania</settlement>
+                        <repository xml:lang="it">Museo civico belliniano</repository>  
+                    </msIdentifier>
+                    <!-- Contenuto del documento -->
+                    <msContents class="missive">
+                        <summary>Un foglio, una facciata, verso.</summary>
+                        <msItem>
+                            <textLang mainLang="it">Italiano</textLang>
+                        </msItem>
+                    </msContents>
+                    <!-- Descrizione fisica del documento -->
+                    <physDesc>
+                        <objectDesc form="partial_missive">
+                            <supportDesc material="paper">
+                                <support>
+                                    <p>
+                                        <objectType>Casa natale, Sala B, vetrina 6, ripiano 2, III formato(numero di carte e misure): c.1rv - Lettera, originale, con firma autografa, busta. </objectType>
+                                    </p>
+                                    <dimensions unit="mm">
+                                        <height>203</height>
+                                        <width>134</width>
+                                    </dimensions>
+                                </support>
+                                <!-- Condizioni fisiche del documento -->
+                                <condition>
+                                    <p>
+                                        La lettera presenta strappi sui margini della pagina, pieghe e buchi, alcune parole sono incomprensibili e vi &#232; la presenza di macchie d'inchiostro,sbavature e freghi.
+                                        In trasparenza si nota il testo presente sull'altra faccia del foglio. 
+                                        Sono presenti nellla pagina, delle linee che delimitano una porzione del testo.    
+                                    </p>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <!--  Descrizione della grafia utilizzata nel documento -->
+                        <handDesc>
+                            <p>
+                                La lettera &#232; stata scritta a mano. Lo stile grafico utilizzato &#232; il corsivo.
+                            </p>
+                        </handDesc>
+                    </physDesc>
+                </msDesc>
+                <listPerson>
+                    <person xml:id="VB" sex="M" role="musician" sameAs="http://www.treccani.it/enciclopedia/vincenzo-bellini/">
+                        <persName>
+                            <forename>Vincenzo</forename>
+                            <surname>Bellini</surname>
+                        </persName>
+                        <birth when="1801-11-03" />
+                        <death when="1835-09-23"/>
+                    </person>
+                    <person xml:id="ES" sex="F" role="duchess" resp="#GS">
+                        <persName>
+                            <forename>Eleonora</forename>
+                            <surname>Statella</surname>
+                        </persName>
+                    </person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+        <!-- Descrizione dettagliata degli aspetti non bibliografici del documento -->
+        <profileDesc>
+            <!-- Linguaggio utilizzato nel documento -->
+            <langUsage>
+                <language ident="it">Italiano</language>
+            </langUsage>
+            <!-- Descrizione delle azioni relativa a un atto di corrispondenza -->
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="#VB">Vincenzo Bellini</persName>
+                    <placeName>Parigi</placeName>
+                    <date when="1835-06">Giugno 1835</date>
+                </correspAction>
+                <correspAction type="recived">
+                    <persName ref="#ES">Eleonora Statella</persName>
+                    <placeName>Catania</placeName>
+                </correspAction>
+            </correspDesc>
+            <!-- Informazioni relative alla classificazione del documento -->
+            <textClass>
+                <keywords>
+                    <term>Lettera</term>
+                    <term>Duchessa</term>
+                    <term>Beatrice</term>
+                    <term>opera</term>
+                    <term>affettuosa</term>
+                    <term>dedica</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <!-- Descrizione della codifica -->
+        <encodingDesc>
+            <!-- Dichiaro le informazioni su caratteri e glifi non standard -->
+            <charDecl>
+                <!-- Fornisco la informazioni descrittive su un carattere glifo -->
+                <!-- SoL230 = So + L + 230 =>   Simbolo, altro + Da sinistra a destra + Sopra -->
+                <glyph xml:id="SoL230">
+                    <figure>
+                        <graphic xml:id="glifo" url="./site/imgFile/glyph.png"/>
+                    </figure>
+                </glyph>
+            </charDecl>
+            <p>
+                Codifica del documento dal punto di vista fisico e sintattico, ponendo particolare attenzione a punti di interezze come zone rovinate dall'usura o dall'inchiostro o parole illeggibili.
+                Il testo è analizzato attraverso la divisione in frasi e clausole e per ogni elemento sintattico è specificato, attraverso l'attributo "function", il ruolo logico che assume all'interno dela frase,
+                anche la punteggiatura e le parole danneggite o aggiunte sono state marcate con gli appositi tag. Altri elementi rievanti, come le note, sono codificati all'interno di un apposito div.
+            </p>
+        </encodingDesc>
+        <!-- Log_Section del documento -->
+        <revisionDesc>
+            <listChange>
+                <change  when="2020-06-18" who="AF CC"> Inizio/Conclusione text. </change>
+                <change  when="2020-06-17" who="AF CC"> Inizio/Conclusione rappresentazione facsimile. </change>
+                <change  when="2020-06-16" who="AF CC"> Conclusione stesura TeiHeader. </change>
+                <change  when="2020-06-15" who="AF CC"> Inizio stesura TeiHeader. </change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <!-- Rappresentazione digitale-->
+    <facsimile>
+        <!-- Superfice digitale -->
+        <surface>
+            <!-- Pagina della letter -->
+            <graphic xml:id="missive_image" url="./site/imgFile/lettera_132i.jpg" width="1069px" height="1600px"/>
+        </surface>
+    </facsimile>
+    <!-- Testo -->
+    <text xml:lang="it" type="partial_letter">
+        <body>
+            <!-- Struttura della lettera -->
+            <div type="first_page">
+                <gap rend="align(right)" reason="illegibile" extent="5 char"/>
+                <gap rend="align(right)" reason="illegibile" extent="7 char"/>
+                <opener>
+                    <salute>
+                        <s>
+                            <gap reason="cancelled" quantity="2" unit="letter"/>
+                            <g ref="#SoL230"/>
+                            <w lemma="pregiato" type="adjective"><damage agent="rubbing">Pregiatissima</damage></w>
+                            <w lemma="signore" type="noun"><abbr>Sig.<hi rend="superscript">ra</hi></abbr></w>
+                            <roleName role="duchessa"><w lemma="duca" type="noun">Duchessa</w></roleName>
+                            <note place="inline" hand="AF CC">(Eleonora Statella, Duchessa di Sammartino)</note>
+                        </s>
+                    </salute>
+                </opener>
+                <ab>
+                    <s>
+                        <cl>
+                            <phr function="predicate">Aspettava</phr>
+                            <phr function="complement">il momento</phr>
+                            <phr function="complement">che</phr>
+                            <phr function="subject">l<pc>'</pc><damage agent="rubbing">edizione</damage></phr>                            
+                        </cl>
+                        <cl>
+                            <phr function="complement"> della <rs type="work">Beatrice</rs></phr>
+                            <note place="inline" hand="AF CC">(di Tenda)</note>
+                            <phr function=" predicate ">fosse terminata<pc>.</pc></phr>
+                        </cl>
+                    </s>
+                    <s>
+                        <cl>
+                            <phr function="predicate">Aspettai</phr>
+                            <phr function="complement">il momento</phr>
+                            <phr function="complement">che</phr>
+                            <phr function="subject">l<pc>'</pc><damage agent="rubbing">edizione</damage></phr>
+                        </cl>
+                        <cl>
+                            <phr function="complement"> della mia <rs type="work">Beatrice</rs></phr>
+                            <note place="inline" hand="AF CC">(di Tenda)</note>
+                            <phr function="predicate">fosse completata</phr>
+                        </cl>
+                        <cl>
+                            <phr function="predicate">per offrirle</phr>
+                            <phr function="complement">in uno</phr>
+                            <phr function="complement"><damage agent="rubbing">all</damage><pc>’</pc>esemplare </phr>
+                        </cl>
+                        <cl>    
+                            <phr function="complement">della detta opera<pc>,</pc> i miei pi&#249; distinti </phr>
+                        </cl>
+                        <cl>
+                            <phr function="complement">ringraziamenti per l<pc>’</pc>onore</phr>
+                            <phr function="complement">che con</phr>
+                        </cl>
+                        <cl>
+                            <phr function="complement">tanta <add extent="1 word" place="above" hand="VB"><w lemma="affettuoso" type="adjective">\affettuosa/ </w></add>bont&#224;</phr>
+                            <phr function="predicate"><damage agent="rubbing">ha voluto accordarmi</damage></phr>
+                        </cl>
+                        <cl>
+                            <phr function="predicate">nell<pc>'</pc>accettare</phr>
+                            <phr function="complement">la dedica</phr>
+                        </cl>
+                    </s>
+                </ab>
+            </div>
+        </body>
+        <back>
+            <div type="notes">
+                <note xml:id="LL1.32i_n1" resp="#GS">
+                    <p>Eleonora Statella (1791-1836), discendente dalla famiglia dei principi di Cassaro, era consorte di Stefano Notarbatolo, duca di Sammartino; quando nel 1818 questi era stato nominato Intendente del Valle di Catania, si era trasferita con lui nella città etnea. Nella residenza catanese la duchessa di Sammartino accolse con liberalità il giovane Bellini, che divenne compagno di svaghi e di musica del fratello Enrico. </p>
+                </note>
+                <note xml:id="LL1.32i_n2" resp="#GS">
+                    <p>Nel recto del medesimo foglio vi è una minuta indirizzata a Federico Doca, datata «Parigi 21: Giugno» (Lettera 466).</p>
+                </note>
+                <note xml:id="LL1.32i_n3">
+                    <p>Con i termini <rs type="work">Beatrice</rs> e <term>opera</term>, <persName ref="#VB">Vincenzo Bellini</persName> si riferisce  al melodramma Beatrice di Tenda.</p>
+                </note>
+            </div>
+        </back>
+    </text>
+</TEI>
